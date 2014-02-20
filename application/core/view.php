@@ -7,8 +7,8 @@ class View {
             extract($data);
         }
 
+        $project_name = 'Сайт визитонька';
         include 'application/views/'.$template_view;
     }
-
 
 }
